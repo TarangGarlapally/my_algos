@@ -1,0 +1,27 @@
+n = 10
+
+means
+coins of denominations 1,2,3.....10
+
+for 4->1,2,4
+for 5->1,2,4
+..
+for 8-10->1,2,4,8
+consider all coins which are powers of 2
+log(n) + 1
+
+this is using  bits
+for 4-7
+4 = 100 (in binary)
+we can set any bits in it to form 'n'
+those set bits will be the combinations
+like
+4 2 1
+1 0 0
+
+if you make it 1->1
+010->2
+011->3
+..
+111->7
+

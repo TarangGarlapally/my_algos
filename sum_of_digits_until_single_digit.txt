@@ -1,0 +1,11 @@
+n = 12,345
+
+**find sum of digits until single digit
+s = 12,345
+
+easy solution
+
+if ( n%9 == 0 )
+print(9)
+else:
+print(n%9)

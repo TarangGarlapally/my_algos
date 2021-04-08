@@ -1,0 +1,37 @@
+1 12  123  1234  12345
+mountain peak sequence
+
+check if permutations  of the numbers have a mountain peak
+
+for 1 - > 0
+for 12 -> 0
+for 123 =132, 231 -> 2
+for 4 = 
+
+************
+
+1
+
+1, where to place 2?
+12 or 21
+at ends so 0
+
+12, now where to add 3?
+after 2 or before 2 that's it
+123, 132
+132 and reverse 231 so 2
+
+for these 2,
+ 
+2*2+2 = 6 fo 4
+123 -> 1243 
+for 3's
+132 ->
+1432, 1342
+231 ->
+2431, 2341
+so, here 3*2 = 6
+
+
+2^(n-1) - 2
+

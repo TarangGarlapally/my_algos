@@ -1,0 +1,16 @@
+prime numbers in given range
+
+**Sieve of Eratosthenes
+
+n = 30
+b = bool[n] = [all are True] = [True, True, True...]
+
+
+for(i = 2; i<=30;i++)
+{
+ if(b[i] == True){
+  put False for all multiples of b[i] from i*i to end of array
+ }
+}
+
+now print all true numbers

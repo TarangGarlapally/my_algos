@@ -1,0 +1,38 @@
+n = 10
+factors = 1,2,5,10
+
+Till sqrt(n) 
+If(n%i==0):
+  if(i!=sqrt(n))
+    print (i*n/i)   
+  else 
+    print(i)
+
+
+n=10
+1*10 = 10
+2*5 = 10
+
+n=24
+1*24
+2*12
+3*8
+4*6
+
+until sqrt(n)
+
+for (i=0;i<sqrt(n);i++)
+{
+if(n%i==0)
+{
+if(n/i == i){
+print(i)
+}
+}
+else{
+print(i)
+stack(n/i)
+}
+}
+
+
