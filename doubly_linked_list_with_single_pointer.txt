@@ -1,0 +1,3 @@
+implementing doubly linkedlist with 1 pointer
+
+by storing xor of addresses of  previous and next nodes

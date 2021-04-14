@@ -1,0 +1,13 @@
+n = 9
+temp = n
+n1 = 0
+while(n>0){
+n1 = n1<<1
+n1 = n1| (n&1)
+n = n>>1
+}
+
+n  =  9 4 2 1 0     
+n1 = 0 1 2 4 8->9
+
+n1 == temp? True: False

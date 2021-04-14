@@ -1,0 +1,38 @@
+1->2->3->4->5->6
+to
+1->6->2->5->3->4
+
+******************************************
+my method
+
+find mid uning fast and slow
+
+mid = mid pointer
+end = end pointer
+
+head = head pointer
+node = none
+while(head != mid)
+{
+if(node == none){
+node = head
+}
+else{
+node.next = head
+}
+
+head = head.next
+node = node.next
+//now we insert from the other half
+temp = mid
+while(temp.next!=end){
+temp = temp.next
+}
+node.next = end
+end = temp
+}
+
+
+**************************************************
+sirs method
+split the linked list using fast and slow and then merge them

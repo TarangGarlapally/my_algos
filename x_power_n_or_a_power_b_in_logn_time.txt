@@ -1,0 +1,13 @@
+2^16
+
+fun(x,n){
+if(n == 1):
+return x
+if(n%2 == 0)
+return fun(x,n/2)*fun(x,n/2)
+else
+return 2*fun(x,n/2)*fun(x,n/2)
+}
+
+use memoization for even faster time, as the recursion calls can be repeted
+

@@ -1,0 +1,2 @@
+x=(n-4)//5 for five ruppe coins              
+if (n-(x*5))%2==0 then z=2 else z=1 here z is one ruppe  and remaining value of n will be 2 ruppee coin
