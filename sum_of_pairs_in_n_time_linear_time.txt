@@ -1,0 +1,8 @@
+def check(n, k):
+    l = list(map(int, input().split()))
+    d = {}
+    for i in range(len(l)):
+        if(k - l[i] in d):
+            return True
+        else:
+            d[l[i]] = i
